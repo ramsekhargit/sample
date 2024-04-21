@@ -12,8 +12,8 @@ provider "github" {
   # Configuration options
 }
 
-resource "github_repository" "example" {
-  name        = "example"
+resource "github_repository" "sample" {
+  name        = "sample"
   description = "My awesome codebase"
 
   visibility = "public"
